@@ -1,0 +1,33 @@
+.DPV{
+    color: dodgerblue;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.DB{
+    color: lightskyblue;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.M{
+    color: royalblue;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.DRS{
+    color: steelblue;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.DES{
+    color: lightslategrey;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.WZ{
+    color: skyblue;
+    font-weight: bold;
+    text-indent: 2%;
+}
+.directions{
+    color: darkgray;
+}
