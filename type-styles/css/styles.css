@@ -1,0 +1,27 @@
+html {
+    color: rgb(54, 54, 54);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+}
+body {
+    margin: 10%;
+}
+h1 {
+    font-size: 75pt;
+    color: rgb(225, 176, 43);
+}
+h2 {
+    font-size: 15pt;
+    color: rgb(225, 176, 43);
+}
+h3 {
+    font-size: 20pt;
+    color: rgb(54, 15,224);
+}
+h4 {
+    font-size: 10pt;
+    color: rgb(54, 15,224);
+}
+section {
+    text-indent: 3rem;
+}
