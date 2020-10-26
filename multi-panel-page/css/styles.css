@@ -1,0 +1,90 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header {
+    height: 330px;
+    background-color: rgba(100, 0, 0, .5);
+    text-align: center;
+    padding-top: 150px;
+    background-image: url(https://assets.teenvogue.com/photos/5f9306563d7935ccb2f4a023/master/w_1600%2Cc_limit/PR-IvyPark_FW20_CampaignAssets_HeroImage_01_LowRes.jpg);
+    background-size: cover;
+    background-position: center 46%;
+}
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 34px;
+}
+.section-two {
+    background-color: rgba(36, 70, 53, .5);
+    height: 715px;
+    padding-top: 1px;
+}
+.image-two {
+    width: 400px;
+    height: 300px;
+    float: right;
+    object-fit: cover;
+    margin: 0 0 2rem 2rem;
+    border: 1px solid white;
+}
+p {
+    font-size: 18px;
+}
+.section-three {
+    background-color: rgba(218, 235, 225, .5);
+    height: 685px;
+    padding-top: 1px;
+}
+.grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.grid li {
+    display: block;
+}
+.grid-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.grid-text {
+    font-size: 18px;
+    width: 425px;
+}
+.section-four {
+    background-color: rgba(36, 70, 53, .5);
+    height: 400px;
+    padding-top: 1px;
+}
+.section-four-text {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    width: 73%;
+}
+footer {
+    background-color: rgba(218, 235, 225, .5);
+    height: 70px;
+    padding-top: 27px;
+}
