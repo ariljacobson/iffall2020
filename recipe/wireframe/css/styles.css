@@ -1,0 +1,16 @@
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 15pt;
+}
+img {
+    max-width: 100%; 
+}
+h1 {
+    text-align: center;
+}
+@media (min-width: 640px) {
+    .side-by-side { display: flex; }
+    .side-by-side > * { width: 50%; }
+  }
