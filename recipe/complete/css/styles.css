@@ -1,0 +1,77 @@
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 15pt;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    background-color: rgb(247, 245, 246);
+}
+header {
+    height: 470px;
+    margin: 0;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59667af7e4fcb50e052b8e18/1511477031651-AT05301HZZT3B0Y2W0PW/ke17ZwdGBToddI8pDm48kJKo3YTR7zgUvInmXMbZ6zZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0geeCvn1f36QDdcifB7yxGjTk-SMFplgtEhJ5kBshkhu5q5viBDDnY2i_eu2ZnquSA/muffinsad5+%281+of+1%29.jpg?format=2500w);
+    background-size: cover;
+    background-position: center;
+}
+img {
+    max-width: 100%; 
+}
+section { 
+    margin: 10px; 
+}
+.description {
+    font-weight: 300;
+    font-size: 9pt;
+}
+.side-by-side {
+    font-weight: 300;
+}
+.footer {
+    font-weight: 500;
+    font-size: 9pt;
+}
+h1 {
+    text-align: center;
+    padding-top: 83px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(155, 6, 26);
+    font-size: 24pt;
+    margin: -8px;
+}
+h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(25, 140, 205);
+    font-size: 18pt;
+}
+li {
+    font-size: 9pt;
+}
+a {
+    text-decoration: underline;
+    color: black;
+}
+a:hover {
+    color: rgb(155, 6, 26);
+}
+a:active {
+    color: rgb(25, 140, 205);
+}
+@media (min-width: 640px) {
+    .side-by-side { display: flex; }
+    .side-by-side > * { width: 50%; }
+    header { height: 800px; }
+    .description { font-size: 12pt; line-height: 18pt; }
+    .footer { font-size: 12pt; }
+    h1 { padding-top: 112pt; font-size: 40pt; }
+    h2 { font-size: 24pt; }
+    li { font-size: 12pt; line-height: 18pt; }
+    section { margin: 20px; }
+}
+@media (min-width: 750px) {
+    h1 { padding-top: 80pt; font-size: 46pt; }
+}
+@media (max-width: 375px) {
+    h1 { font-size: 20pt; }
+}
