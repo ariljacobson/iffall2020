@@ -1,0 +1,451 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 40px;
+}
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+#lyft {
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    color:rgb(255, 0, 191);
+    font-size: 80px;
+    transition: all .2s;
+}
+#lyft:hover {
+    color: black;
+    margin-top: 60px;
+    font-size: 100px;
+}
+#jude .one {
+    display: block;
+    width: 100%;
+}
+#jude .two {
+    width: 0px;
+}
+#jude:hover .one {
+    opacity: 0;
+}
+#jude:hover .two {
+    opacity: 1;
+    width: 100%;
+    margin-top: -115px;
+}
+#npr .one {
+    width: 60%;
+    margin-top: 105px;
+    z-index: 10;
+    transition: all .3s;
+}
+#npr .two {
+    z-index: 0;
+    opacity: 0;
+    width: 60%;
+    transform: translate(0, -100%);
+}
+#npr:hover .one {
+    z-index: 0;
+    opacity: 0;
+}
+#npr:hover .two {
+    z-index: 10;
+    opacity: 1;
+    width: 60%;
+    transform: translate(0, -110%);
+}
+#newyorker img{
+    display: block; 
+    width: 80%;
+    margin: auto;
+    margin-top: 100px; 
+    padding-bottom: 5px;
+    transition: all .2s;
+}
+#newyorker img:hover {
+    border: 5px solid;
+    border-color: gray;
+}
+#tcr {
+    font-family: 'Teko', sans-serif;
+    color:black;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: left;
+    display: inline-block;
+    transition: all .2s;
+    margin-top: 60px;
+}
+#tcr #the:hover { 
+    color:rgb(236, 0, 140); 
+}
+#tcr #color:hover {
+    color:rgb(255, 242, 0);
+}
+#tcr #run:hover {
+    color:rgb(0, 174, 239);
+}
+#facebook {
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    color:rgb(66, 103, 178);
+    font-size: 60px;
+    transition: all .2s;
+}
+#facebook i:hover {
+    color: white;
+    background-color: rgb(66, 103, 178);
+    padding: 10px 15px 0px 15px;
+    border-radius: 10px;
+}
+#nike img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    transition: all .5s;
+    padding-top: 100px;
+}
+#nike:hover img{
+    width: 80%;
+    padding-top: 95px;
+}
+#fitbit img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    transition: all 1s;
+    padding-top: 85px;
+}
+#fitbit img:hover {
+    transform: rotate(360deg);
+}
+#samsung {
+    text-decoration: none;
+}
+#samsung p {
+    text-transform: uppercase;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 115px;
+    color:  rgb(3, 78, 162);
+}
+#samsung p:hover {
+    text-shadow: 0px 0px 10px rgba(169, 169, 169, 1);
+}
+#tesla img {
+    display: block; 
+    width: 80%;  
+    margin: auto;
+    margin-top: 110px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#tesla img:hover {
+    box-shadow: 0 0 20px rgb(232, 33, 39);
+}
+#hsn {
+    text-decoration: none;
+}
+#hsn p {
+    text-transform: uppercase;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(6, 174, 235);
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 30px;
+}
+#hsn p:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#284998+0,284998+0,284998+0,06aeeb+100 */
+    background: #284998; /* Old browsers */
+    background: -moz-linear-gradient(top,  #284998 0%, #284998 0%, #284998 0%, #06aeeb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #284998 0%,#284998 0%,#284998 0%,#06aeeb 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #284998 0%,#284998 0%,#284998 0%,#06aeeb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#284998', endColorstr='#06aeeb',GradientType=0 ); /* IE6-9 */
+}
+#foreflight {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    display:inline-block; 
+    margin-top: 120px; 
+    color: rgb(29, 67, 100);
+    transition: all 1s;
+}
+#foreflight .fa-plane {
+    transform: rotate(-90deg);
+}
+#foreflight:hover .fa-plane {
+    transform: rotate(-90deg) translate(50px, 0);
+    transition: transform 1s;
+}
+#craigslist {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    display:inline-block; 
+    margin-top: 105px; 
+    color: rgb(83, 29, 132);
+    transition: all 0.5s; 
+}
+#craigslist .fa-peace {
+    transform: translate(0, 15%);
+}
+#craigslist:hover .fa-peace {
+    font-size: 45px;
+    transform: translate(0, 20%);
+    transition: all 0.5s; 
+}
+#nbc .black {
+    width: 40%;
+    margin: auto;
+    margin-top: 70px;
+    z-index: 10;
+}
+#nbc .color {
+    width: 40%;
+    z-index: 0;
+    opacity: 0;
+    transform: translate(0, -104%);
+}
+#nbc:hover .black {
+    z-index: 0;
+    opacity: 0;
+}
+#nbc:hover .color {
+    z-index: 10;
+    opacity: 1;
+    transform: translate(0, -104%);
+}
+#coke img {
+    display: block; 
+    width: 60%;  
+    margin: auto;
+    margin-top: 105px; 
+    transition: 1s;
+}
+#coke:hover img {
+    margin-top: 95px;
+}
+#coke .swoosh {
+    opacity: 0;
+    margin-top: -1px;
+}
+#coke:hover .swoosh {
+    margin-top: -1px;
+    opacity: 1;
+}
+#old {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: all .3s;
+}
+#old p {
+    margin: auto;
+    margin-top: 105px;
+    color: rgb(22, 62, 105);
+    padding: 10px 5px 10px 5px;
+    width: 200px;
+}
+#old:hover p {
+    border: solid rgb(22, 62, 105);
+    border-width: 5px;
+    border-radius: 180px / 70px;
+    transform-origin: center;
+    margin-top: 100px;
+}
+#moo img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    transition: all .5s;
+    padding-top: 110px;
+}
+#moo:hover img{
+    width: 70%;
+    padding-top: 105px;
+}
+#mbg {
+    text-decoration: none;
+    color: rgb(120, 121, 1);
+    font-family: copperplate, serif;
+    font-weight: 500;
+    height: 100px;
+}
+#mbg nobr {
+    line-height: 280px;
+}
+#mbg .missouri:hover {
+    color: rgb(247, 112, 67);
+}
+#mbg .botanical:hover {
+    color: rgb(143, 55, 54);
+}
+#mbg .gardens:hover {
+    color: rgb(227, 184, 7);
+}
+#apple {
+    font-size: 100px;
+    line-height: 255px;
+    color: darkgray;
+}
+#apple:hover {
+    color: gray;
+}
+#motortrend {
+    display: block;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    line-height: 100px;
+}
+#motortrend p {
+    background-color: rgb(236, 28, 36);
+}
+#motortrend:hover p {
+    background-color: white;
+    color: rgb(236, 28, 36);
+}
