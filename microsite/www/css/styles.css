@@ -1,0 +1,157 @@
+body {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: trajan-pro-3, serif;
+    font-family: nimbus-sans, sans-serif;
+    font-family: semplicitapro, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 246);
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(71, 69, 69, .10);
+}
+.navbar a {
+    width: 90%;
+}
+.navbar li {
+    display: block;
+    width: 20%;
+    text-align: center;
+    font-family: trajan-pro-3, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(27, 25, 26);
+}
+.selected {
+    color: rgb(170, 54, 48);
+}
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+h1 {
+    font-family: trajan-pro-3, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 49px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(27, 25, 26);
+    overflow: hidden;
+}
+h1:after {
+    content:"";
+    display: inline-block;
+    height: 0.6em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 50px;
+    border-top: 2px solid rgb(170, 54, 48);
+}
+h2 {
+    font-family: semplicitapro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+h2+p {
+    margin-top: 0;
+}
+#one {
+    background-size: cover;
+    background-position: center;
+}
+#two {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(71, 69, 69);
+    padding-bottom: 60px;
+}
+#historygrid {
+    margin-top: 0;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+.hist {
+    width: 48%;
+}
+.typesgrid {
+    padding: 0;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.typesgrid img {
+    width: 90%;
+}
+.typesgrid li {
+    display: block;
+    width: 25%;
+    text-align: center;
+    font-family: semplicitapro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: rgb(27, 25, 26);
+}
+.copyright {
+    background-color: rgba(71, 69, 69, .10);
+    color: rgb(27, 25, 26);
+    font-family: semplicitapro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+.copyright p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(27, 25, 26);
+}
+a:hover {
+    color: rgb(170, 54, 48);
+}
+#terms {
+    margin-bottom: 0;
+}
+.textilesgrid {
+    padding: 0;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.textilesgrid img {
+    width: 90%;
+}
+.textilesgrid li {
+    display: block;
+    width: 25%;
+}
